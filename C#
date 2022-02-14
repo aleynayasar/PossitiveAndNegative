@@ -1,0 +1,23 @@
+using System;
+
+namespace IfElse
+{
+  class Program 
+  {
+     static void Main(string[] args)
+     {    
+        int sayi;
+        Console.WriteLine("Lütfen bir sayı giriniz : ");
+        sayi= Convert.ToInt32(Concole.ReadLine());
+        if(sayi=>0)
+        {
+            Console.WriteLine("Girilen sayı pozitiftir.");
+        }
+        else
+        { 
+            ConsoleWriteLine("Girilen sayı negatiftir. ");
+        }
+        Console.Read();
+     }
+  }
+}
